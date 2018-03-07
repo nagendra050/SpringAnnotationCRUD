@@ -1,0 +1,20 @@
+package com.info.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/getlist")
+public class CustomController {
+
+	 @RequestMapping(method=RequestMethod.GET)
+	 public String callMe(ModelMap map){
+		 map.addAttribute("greeting", "OMG...");
+		return "welcome";
+		 
+       }
+	
+}
+

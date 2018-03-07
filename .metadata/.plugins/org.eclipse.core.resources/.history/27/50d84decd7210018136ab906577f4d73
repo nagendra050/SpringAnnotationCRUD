@@ -1,0 +1,5 @@
+package com.info.demo.entity;
+
+public class Customer {
+
+}

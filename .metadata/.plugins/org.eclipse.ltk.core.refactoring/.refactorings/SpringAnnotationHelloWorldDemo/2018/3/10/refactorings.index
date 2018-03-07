@@ -1,0 +1,18 @@
+1520403324955	Rename source folder 'src/main/java1'
+1520404009635	Rename package 'com.info.demo.spring'
+1520404013872	Delete element
+1520404030054	Delete element
+1520404180096	Rename package 'com.info.demo.spring.config'
+1520404300358	Rename package 'com.info.demo'
+1520404849313	Rename type 'DemoApplicationConfig'
+1520405362989	Delete element
+1520406226712	Rename type 'DemoApplicationIntializer'
+1520407681073	Infer generic type arguments
+1520407690849	Infer generic type arguments
+1520409009064	Move 'persistence.xml' to 'WEB-INF'
+1520409022618	Move 'persistence.xml' to 'web-resources'
+1520409036550	Move 'persistence.xml' to 'META-INF'
+1520410385419	Delete element
+1520416091874	Delete element
+1520416224107	Delete element
+1520416489369	Delete element

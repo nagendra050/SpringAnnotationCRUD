@@ -1,0 +1,54 @@
+package com.info.demo.services;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+import com.info.demo.dao.CustomerDao;
+import com.info.demo.entity.Customer;
+
+public class CustomerServiceImpl implements CustomerService {
+	
+	@Autowired
+	@Qualifier
+	private CustomerDao dao;
+
+	@Override
+	public Customer addCustomer(String customerName, String country) {
+		System.out.println("creation invoked:"+customerName);
+		Customer customer =new Customer();
+		customer.setCustomerName(customerName);
+		customer.setCountry(country);
+		customer.setCreatedDate(new Date());
+		customer.setUpdateDate(new Date());
+		customer=dao.addCustomer(customer);
+		return customer;
+	}
+
+	@Override
+	public Customer updateCustomer(long customerId, String customerName, String country) {
+		System.out.println("Cusomer Service Update invoked:"+customerName);
+	      Customer customer = new Customer();
+	      customer.setCustomerId(customerId);
+	      customer.setCountry(country);
+	      customer.setCustomerName(customerName);
+	     customer.setUpdateDate(new Date());
+	      customer = dao.updateCustomer(customer);
+	      return customer;
+	}
+
+	@Override
+	public Customer getCustomer(long customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

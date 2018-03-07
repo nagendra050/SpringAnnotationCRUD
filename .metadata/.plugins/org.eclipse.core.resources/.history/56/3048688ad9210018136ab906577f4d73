@@ -1,0 +1,5 @@
+package com.info.demo.services;
+
+public interface CustomerService {
+
+}

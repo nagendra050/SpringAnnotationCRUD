@@ -1,0 +1,17 @@
+<web-app>
+ 
+    <servlet>
+       <servlet-name>sumOfTwoNumbers</servlet-name>
+       <servlet-class>java4s.OngetParameter</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+       <servlet-name>sumOfTwoNumbers</servlet-name>
+       <url-pattern>/calculate</url-pattern>
+    </servlet-mapping>
+ 
+    <welcome-file-list>
+       <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+ 
+</web-app>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/madnagen/Downloads/ojdbc6-11.2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/ch.qos.logback.classic-0.9.28.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/commons-collections-3.2.1-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/commons-dbcp2-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/commons-pool2-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/hibernate-commons-annotations-4.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jackson-annotations-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jackson-core-2.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jdbc-oracle.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/log4j-1.2.17-sources.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/logback-core-1.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/org.apache.commons.dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/org.apache.servicemix.bundles.spring-context-support-3.2.17.RELEASE_1.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/org.springframework.context.support-sources-3.1.0.release.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/quartz-1.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/slf4j.api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/slf4j.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/slf4j-log4j12.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-aop-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-beans-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-context-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-context-support-3.2.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-core-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-expression-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-jdbc-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-orm-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-tx-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-web-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/spring-webmvc-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/tomcat-dbcp-7.0.47.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/tomcat-dbcp-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/tomcat-juli-8.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/velocity-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/velocity-tools-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/sawan/EmailSender/lib/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

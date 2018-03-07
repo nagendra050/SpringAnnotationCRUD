@@ -1,0 +1,12 @@
+package com.info.demo.controller;
+
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/")
+public class MyController {
+
+	 public String callMe(ModelMap map){
+		 
+	 }
+}

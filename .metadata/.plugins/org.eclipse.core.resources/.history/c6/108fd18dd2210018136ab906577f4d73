@@ -1,0 +1,16 @@
+package com.info.demo.app.config;
+
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+
+import org.springframework.web.WebApplicationInitializer;
+
+public class DemoApplicationIntializer implements WebApplicationInitializer{
+
+	@Override
+	public void onStartup(ServletContext container) throws ServletException {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

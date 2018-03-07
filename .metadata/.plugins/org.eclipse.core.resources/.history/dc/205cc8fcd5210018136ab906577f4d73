@@ -1,0 +1,5 @@
+package com.info.demo.web.config;
+
+public class CustomerWebMVCConfig {
+
+}

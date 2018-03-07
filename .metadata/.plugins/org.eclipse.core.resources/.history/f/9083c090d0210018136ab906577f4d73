@@ -1,0 +1,8 @@
+package com.info.demo.spring;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.info.demo.spring
+	}
+}
+
